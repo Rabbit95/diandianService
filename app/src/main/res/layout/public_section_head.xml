@@ -1,0 +1,42 @@
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:gravity="left|center"
+            android:src="@mipmap/info"/>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:layout_weight="8"
+            android:textColor="@color/txt_color"
+            android:text="信息修改"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/right"/>
+    </LinearLayout>
+
+

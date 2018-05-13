@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option">
+        <item>待送达</item>
+        <item>已完成</item>
+        <item>已取消</item>
+        <item>全部</item>
+    </string-array>
+</resources>

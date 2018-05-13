@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:text="验证当前用户"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/id_dialog_nowname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="用户名"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/id_dialog_nowpswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:textColor="#000"/>
+
+</LinearLayout>
